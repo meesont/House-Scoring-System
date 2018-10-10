@@ -1,0 +1,10 @@
+.btn-primary.btn-custom { /* create a custom green button for use with bootstrap */
+  background-color: #275c48;
+  border-color: #275c48;
+}
+
+.btn-primary.btn-custom:hover {
+  background: #014a37;
+  border-color: #014a37;
+  color: #fff
+}
