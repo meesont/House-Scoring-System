@@ -1,0 +1,14 @@
+.container {
+  padding-top: 20px;
+}
+
+html {
+  height: 100%; /*To enable background to fit fully */
+}
+
+body {
+  /* background: rgb(39,92,72);
+  background: linear-gradient(148deg, rgba(39,92,72,1) 72%, rgba(255,255,255,1) 100%);
+  background-size: cover; */
+  background: #F0ECE3;
+}
