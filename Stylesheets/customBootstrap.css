@@ -1,10 +1,31 @@
+/**
+ * @Author: Thomas Meeson <meesont>
+ * @Date:   11-10-2018
+ * @Last modified by:   meesont
+ * @Last modified time: 11-10-2018
+ * @Copyright: Copyright © 2018 Thomas Meeson
+ */
+
+
 .btn-primary.btn-custom { /* create a custom green button for use with bootstrap */
   background-color: #275c48;
   border-color: #275c48;
 }
 
-.btn-primary.btn-custom:hover {
+.btn-primary.btn-custom:hover { /*Handles the hover function of the button */
   background: #014a37;
   border-color: #014a37;
-  color: #fff
+  color: #fff;
+}
+
+.btn-primary.btn-custom:focus {
+  background: hsl(164, 96%, 12%) !important; /*Important needed to overwrite the button from bootstrap */
+  border-color: hsl(164, 96%, 12%) !important;
+  color: #fff;
+}
+
+.btn-primary.btn-custom:active {
+  background: hsl(164, 96%, 12%) !important;
+  border-color: hsl(164, 96%, 12%) !important;
+  color: #fff;
 }
