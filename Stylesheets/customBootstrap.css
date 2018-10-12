@@ -2,10 +2,22 @@
  * @Author: Thomas Meeson <meesont>
  * @Date:   11-10-2018
  * @Last modified by:   meesont
- * @Last modified time: 11-10-2018
+ * @Last modified time: 12-10-2018
+ * @License: Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
  * @Copyright: Copyright © 2018 Thomas Meeson
  */
 
+/*Class to edit the current bootstrap colours and features, */
 
 .btn-primary.btn-custom { /* create a custom green button for use with bootstrap */
   background-color: #275c48;
@@ -18,14 +30,19 @@
   color: #fff;
 }
 
-.btn-primary.btn-custom:focus {
-  background: hsl(164, 96%, 12%) !important; /*Important needed to overwrite the button from bootstrap */
+.btn-primary.btn-custom:focus { /* Handles the colours when the button is focused by the user */
+  background: hsl(164, 96%, 12%) !important; /*Important needed to overwrite the button style from bootstrap's own css file*/
+  border-color: hsl(164, 96%, 12%) !important; /* HSL Stands for hue saturation lightness, used to make colours
+  as an alterantive to hexadecimil, RGB/RGBA and standard inbuilt colours */
+  color: #fff;
+}
+
+.btn-primary.btn-custom:active { /* Handles the colours when the button is clicked by the user */
+  background: hsl(164, 96%, 12%) !important;
   border-color: hsl(164, 96%, 12%) !important;
   color: #fff;
 }
 
-.btn-primary.btn-custom:active {
-  background: hsl(164, 96%, 12%) !important;
-  border-color: hsl(164, 96%, 12%) !important;
-  color: #fff;
+.bg-rgsgreen { /* a CSS class that will add a background colour that matches RGS's green colour*/
+  background: #275c48;
 }
