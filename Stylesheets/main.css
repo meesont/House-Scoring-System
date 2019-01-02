@@ -21,10 +21,13 @@ limitations under the License.
 .container {
   padding-top: 20px;
 }
+
 html {
   height: 100%; /*To enable background to fit fully */
 }
+
 body {
   background-color: #F0ECE3; /*Simple off white color for background*/
   padding-top: 70px;
+
 }
