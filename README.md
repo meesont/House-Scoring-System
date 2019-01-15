@@ -1,12 +1,17 @@
 # House Scoring System
 
-## Scoring System developed and deployed for RGS Worcester
+Developed and deployed for RGS Worcester
+###Current stack
 
-Developed in HTML5, CSS3, JavaScript (JQuery).
+* HTML5
+* CSS3
+* JavaScript
+* Node.js
+  * Passport.js
+  * _ js
+* Express.js
 
-Using Bootstrap 4 and PassportJS for design and authentication respectively, alongside NodeJs for backend work.
 
-Test Slack Integration
 ***
 
 Copyright 2018 Thomas Meeson
