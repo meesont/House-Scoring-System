@@ -2,7 +2,7 @@
 
 Developed and deployed for RGS Worcester
 
-##Current stack
+## Current stack
 
 * HTML5
 * CSS3
